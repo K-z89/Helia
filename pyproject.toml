@@ -1,0 +1,19 @@
+[project]
+name = "helia"
+version = "1.0.0"
+description = "Helia – خورشیدی در دل تاریکی | Secure terminal chat room"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  {name = "Backdoor", email = "backdoor@bamdad.dev"},
+  {name = "Bamdad"}
+]
+dependencies = [
+  "rich>=13.7",
+  "cryptography>=42.0",
+  "pysocks>=1.7"
+]
+
+[project.scripts]
+helia = "helia.main:main"
